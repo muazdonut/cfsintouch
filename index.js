@@ -1,3 +1,5 @@
-function changeText() {
-    document.getElementById("text").innerHTML = "Text has been changed!";
-}
+const button = document.getElementById("themeBtn");
+
+button.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
